@@ -6,7 +6,7 @@ The purpose of this project is to create an automated ETL (Extract, Transform, L
 to be used for daily database updates for Amazing Prime.
 
 The completed Pipeline will take in new data, perform the appropriate
-transformations, and load the data into existing SQL Tables.
+transformations, and load the data into a PostgreSQL Database.
 
 It is refactored from previous code that accomplished a similar task
 using separate functions.
