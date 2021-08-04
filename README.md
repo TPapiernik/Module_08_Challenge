@@ -17,7 +17,7 @@ Here, the process will be completed from within one single Function.
 
 - Software:
 	- PostgreSQL 11 (Input/Output, and Queries processed via pgAdmin 4)
-	- Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit (Dependencies: json, numpy, os, pandas, psycopg2, re, sqlalchemy[create_engine], sys, time)
+	- Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit (Dependencies: json, numpy, os, pandas, pandas.io[sql], psycopg2, re, sqlalchemy[create_engine], sys, time)
 - Data: Provided by Amazing Prime, and retrieved from external sources. Retrieved and saved to disk July 24, 2021:
 	`wikipedia-movies.json`
 	`movies_metadata.csv`
@@ -39,7 +39,7 @@ Additional information about these resources is outlined below in Table 1.
 ### General workflow
 1. Import three files 1) `wikipedia-movies.json` 2) `movies_metadata.csv` and 3) `ratings.csv`
 2. Clean and Transform Data
-3. Add the data to a PostgreSQL Database. Non-destructively append on successive updates.
+3. Add the data to a PostgreSQL Database, and verify correct data Loading.
 
 ## Deliverables
 
